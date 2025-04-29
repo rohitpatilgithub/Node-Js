@@ -10,9 +10,19 @@
 
 ## 🌕 You can import & export elements from one js file to another js file
 
+
 <br>
 
-### 🔴 Bad practice
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/490f9bfb-01d9-4f1c-a6dd-cb60c720bb6d",
+    width="500" 
+    style="border-radius:10px; margin-top:20px; margin-bottom:20px;" 
+  />
+</p>
+
+
+### 🔴 Avoid this ( Use of ES Module without proper setup )
 
 ```bash
 (index.js)
@@ -32,7 +42,7 @@ ___⚠️ READ LAST SECTION___
 
 <br>
 
-### 🟢 Good Practice
+### 🟢 Prefer this ( CommonJS which is Default in Node.js )
 
 ```bash
 (index.js)
