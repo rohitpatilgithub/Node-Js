@@ -3,14 +3,14 @@
 // export const name = 'Rohit';
 // export const age = 20;
 // export function studentInfo(){
-//     return console.log(`Student details are ${name , age}`)
+//     return console.log(`Student details are ${name} ${age}`)
 // }
 
 // RECOMMENDED ( Good Practice )
 const name = 'Rohit';
 const age = 20;
 const studentInfo = () => {
-    return console.log(`Student details are ${name , age}`);
+    return console.log(`Student details are ${name} ${age}`);
 }
 module.exports = {
     name,
