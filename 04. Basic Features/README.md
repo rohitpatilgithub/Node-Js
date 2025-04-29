@@ -16,24 +16,25 @@
 
 ```bash
 (index.js)
-export const studentName = 'Rohan';
-export const studentId = 18;
-```
-
-```bash
-(script.js)
 import { studentName , studentId } from './script.js'
 console.log(studentName + " : " + studentId);
 ```
 
-___NOTE : If you're using Node.js (v20+) then it automatically detects usage of import / export and won't throw any error___
+```bash
+(script.js)
+export const studentName = 'Rohan';
+export const studentId = 18;
+```
+
+___NOTE : If you're using Node.js (v20+) then it automatically detects usage of import / export  and won't throw any error___
+___Thus don't rely on ESM auto detection___
 
 ### 🟢 Good Practice
 
 ```bash
 (index.js)
 const { name , age }  = require('./script');
-console.log(`Student details are ${name + ' ' + age}`)
+console.log(`Student details are ${name} ${age}`)
 ```
 
 ```bash
@@ -59,7 +60,7 @@ studentInfo();
 const name = 'Rohit';
 const age = 20;
 const studentInfo = () => {
-    return console.log(`Student details are ${name , age}`);
+    return console.log(`Student details are ${name} ${age}`);
 }
 module.exports = {
     name,
