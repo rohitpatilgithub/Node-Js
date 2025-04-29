@@ -26,8 +26,11 @@ export const studentName = 'Rohan';
 export const studentId = 18;
 ```
 
-___NOTE : If you're using Node.js (v20+) then it automatically detects usage of import / export  and won't throw any error___
-___Thus don't rely on ESM auto detection___
+___📝 NOTE : If you're using Node.js (v20+) then it automatically detects usage of import / export  and won't throw any error___
+___Thus don't rely on ESM auto detection___ <br> <br>
+___⚠️ READ LAST SECTION___
+
+<br>
 
 ### 🟢 Good Practice
 
@@ -46,6 +49,8 @@ module.exports = {
     age
 };
 ```
+
+<br>
 
 ### 🧩 We can also export functionssss
 
@@ -68,3 +73,13 @@ module.exports = {
     studentInfo
 };
 ```
+
+<br>
+
+## 💫 Most importantly
+### 1. We know that direct use of import / export is bad practice if we use it without explicit setting ```"type" : "module"```
+### 2. At Good practice section there's no need of using ```package.json``` because CommonJs is by default helping us import / export
+### 3. ```require()``` to import modules ( CommonJS )
+### 4. ```module.exports``` to export modules ( CommonJS )
+
+## ⌛ Later we'll see Package section in depth
