@@ -28,10 +28,23 @@ here we added ```-D``` before nodemon because it is a devDependency
 ```bash
 
 (package.json)
+
 {
-        "devDependencies": {
-        "nodemon": "^3.1.10"
-        }
+    "devDependencies": {
+    "nodemon": "^3.1.10"
+    }
+}
+```
+
+4. After installation of nodemon package we should make sure that our ```scripts``` section in package.json is updated with our respective file
+```bash
+
+(package.json)
+
+{
+   "scripts": {
+      "start": "node filename.js"
+    }
 }
 ```
 
