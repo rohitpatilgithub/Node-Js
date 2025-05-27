@@ -22,7 +22,7 @@
 ```bash
 npm i -D nodemon 
 ```
-here we added -D before nodemon because it is a devDependency
+here we added ```-D``` before nodemon because it is a devDependency
 
 3. Now you will be able to see the nodemon in devDependencies of package.json
 ```bash
@@ -35,8 +35,8 @@ here we added -D before nodemon because it is a devDependency
 }
 ```
 
-## ⚠️ Why we wrote -D and why is it in devDependency not normal dependency ?
-We wrote -D flag to explicitly add the nodemon in development dependency because it is not a package which is required during production but <br> required during development which saves our time of restarting server during development
+## ⚠️ Why we wrote ```-D``` and why is it in devDependency not normal dependency ?
+We wrote ```-D``` flag to explicitly add the nodemon in development dependency because it is not a package which is required during production but required during development which saves our time of restarting server during development
 | Feature                      | `dependencies`                                                  | `devDependencies`                                                    |
 | ---------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Purpose                   | Packages **required to run** your application in **production** | Packages needed **only during development** (not used in production) |
