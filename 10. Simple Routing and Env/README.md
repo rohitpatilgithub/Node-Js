@@ -2,8 +2,8 @@
 <br>
 <p align="center">
   <img
-    src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHRjb2J3OG95Njd0OGZyOXd1MG5kYzVrN29uOW54dXAxbmtpYWpqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6UB7BJ9cguaRm0cU/giphy.gif",
-    width="300" 
+    src="https://github.com/user-attachments/assets/9d941be8-efb0-4cef-a48c-feac5e51bf83",
+    width="400" 
     style="border-radius:10px; margin-top:20px; margin-bottom:20px;" 
   />
 </p>
