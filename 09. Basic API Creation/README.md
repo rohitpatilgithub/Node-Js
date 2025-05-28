@@ -15,12 +15,12 @@
 
 (server.js)
 
-import http from 'http'
+import http from 'http';
 
 const serve = http.createServer((req,res) => {
 
 
-}).listen(8001)
+}).listen(8001);
 ```
 <br>
 
@@ -50,14 +50,14 @@ const serve = http.createServer((req,res) => {
 
 (server.js)
 
-import http from 'http'
+import http from 'http';
 
 const serve = http.createServer((req,res) => {
 
     res.writeHead(200 , {'Content-Type' : 'application/json'})
     res.write(JSON.stringify({ Name:'Rohit' , Age:'101' }))
     res.end()
-}).listen(8001)
+}).listen(8001);
 ```
 <br>
 
