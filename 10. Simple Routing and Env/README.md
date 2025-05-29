@@ -50,7 +50,11 @@ PORT = 8002
     "dev" : "nodemon --env-file=.env server.js"
   }
 ```
+<br>
+
 - Import ```PORT No``` in ```server.js```
+- ```process``` is global object in Node.js that provides information and control over current Node.js process.
+- Here we used ```process.env.PORT``` that provides information about ```PORT``` variable from ```.env``` file.
 ```js
 const p = process.env.PORT; // Will try to access PORT variable from environment file
 ```
