@@ -50,8 +50,8 @@ const postM = (req,res) => {
 ## 💫 Things to know from above code !!
 <br>
 
-## ☁️ We are using Event Emitter : In this code, Request Event Emitter is used
-### 1. Event : 'data'
+### ☁️ We are using Event Emitter : In this code, Request Event Emitter is used
+#### 1. Event : 'data'
 
 <br>
 
@@ -66,7 +66,7 @@ req.on('data' , (chunk) => {
 
 <br>
 
-### 2. Event : 'end'
+#### 2. Event : 'end'
 ```js
 req.on('end', () => { 
   const newUser = JSON.parse(body);
